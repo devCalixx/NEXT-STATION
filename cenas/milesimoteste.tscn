@@ -1,5 +1,6 @@
-[gd_scene load_steps=68 format=3 uid="uid://bo4n7em8jy6w8"]
+[gd_scene load_steps=69 format=3 uid="uid://bo4n7em8jy6w8"]
 
+[ext_resource type="Script" path="res://scripts/milesimoteste.gd" id="1_cvp7j"]
 [ext_resource type="Texture2D" uid="uid://bn3v682lhni1q" path="res://sprite aleatorio.png" id="2_0f7uw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_icg8r"]
@@ -496,7 +497,8 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k11yl"]
 size = Vector2(12, 4.25)
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["player"]]
+script = ExtResource("1_cvp7j")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(75, 56)
