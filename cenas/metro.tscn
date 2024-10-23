@@ -13,7 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://b0bc24bybfmnu" path="res://novos sprites/assento comum 4.png" id="6_24mn3"]
 [ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="6_pm0vx"]
 [ext_resource type="Texture2D" uid="uid://e51sy3auyi0o" path="res://novos sprites/assento comum 5.png" id="7_1p1cp"]
-[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://milesimoteste.tscn" id="8_r0eml"]
+[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="8_r0eml"]
 [ext_resource type="Texture2D" uid="uid://bp3oe7lx0dgkc" path="res://porta fechada.png" id="14_4x6wv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sdele"]
