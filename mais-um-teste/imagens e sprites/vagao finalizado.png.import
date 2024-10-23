@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmgnuwsksselk"
-path="res://.godot/imported/vagao finalizado.png-02e97ca2de47fa93a2b7abf75a39abe3.ctex"
+path="res://.godot/imported/vagao finalizado.png-84020a044be1385388231d895d9470b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://vagao finalizado.png"
-dest_files=["res://.godot/imported/vagao finalizado.png-02e97ca2de47fa93a2b7abf75a39abe3.ctex"]
+source_file="res://imagens e sprites/vagao finalizado.png"
+dest_files=["res://.godot/imported/vagao finalizado.png-84020a044be1385388231d895d9470b1.ctex"]
 
 [params]
 

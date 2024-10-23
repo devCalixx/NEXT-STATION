@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1u66isd1i30c"
-path="res://.godot/imported/carteira.png-3e3d753752b6ce75a049a0529d94c120.ctex"
+path="res://.godot/imported/carteira.png-b1cd37211b5475164273c1372a1b8229.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://artes/itens-inventario/carteira.png"
-dest_files=["res://.godot/imported/carteira.png-3e3d753752b6ce75a049a0529d94c120.ctex"]
+source_file="res://imagens e sprites/itens-inventario/carteira.png"
+dest_files=["res://.godot/imported/carteira.png-b1cd37211b5475164273c1372a1b8229.ctex"]
 
 [params]
 

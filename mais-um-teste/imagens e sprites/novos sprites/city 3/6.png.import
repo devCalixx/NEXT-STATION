@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwrm6enx0wi4x"
-path="res://.godot/imported/6.png-0bea5709ea1e6e2bfb57545ba435cfca.ctex"
+path="res://.godot/imported/6.png-70ddfcf51c59152a1bca88a55e717ed6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://novos sprites/city 3/6.png"
-dest_files=["res://.godot/imported/6.png-0bea5709ea1e6e2bfb57545ba435cfca.ctex"]
+source_file="res://imagens e sprites/novos sprites/city 3/6.png"
+dest_files=["res://.godot/imported/6.png-70ddfcf51c59152a1bca88a55e717ed6.ctex"]
 
 [params]
 

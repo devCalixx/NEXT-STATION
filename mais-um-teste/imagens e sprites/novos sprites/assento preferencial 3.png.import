@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqa47thy2p36j"
-path="res://.godot/imported/assento preferencial 3.png-84aa72d081ab558eaea8f19ac069f256.ctex"
+path="res://.godot/imported/assento preferencial 3.png-a038f73cb6981dadd0cd6a853c640542.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://novos sprites/assento preferencial 3.png"
-dest_files=["res://.godot/imported/assento preferencial 3.png-84aa72d081ab558eaea8f19ac069f256.ctex"]
+source_file="res://imagens e sprites/novos sprites/assento preferencial 3.png"
+dest_files=["res://.godot/imported/assento preferencial 3.png-a038f73cb6981dadd0cd6a853c640542.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp3oe7lx0dgkc"
-path="res://.godot/imported/porta fechada.png-31934ae600e9404a6e54474a7039e09f.ctex"
+path="res://.godot/imported/porta fechada.png-a164e8503680ffe299d425346f3bbda8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://porta fechada.png"
-dest_files=["res://.godot/imported/porta fechada.png-31934ae600e9404a6e54474a7039e09f.ctex"]
+source_file="res://imagens e sprites/porta fechada.png"
+dest_files=["res://.godot/imported/porta fechada.png-a164e8503680ffe299d425346f3bbda8.ctex"]
 
 [params]
 

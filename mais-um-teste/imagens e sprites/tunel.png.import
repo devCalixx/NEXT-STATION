@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d23vy4mf6f40l"
-path="res://.godot/imported/tunel.png-4704e33daf0ba73fdeda269cb89c9225.ctex"
+path="res://.godot/imported/tunel.png-e1a6c7adc6d2012a0cf397d77fa45f33.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tunel.png"
-dest_files=["res://.godot/imported/tunel.png-4704e33daf0ba73fdeda269cb89c9225.ctex"]
+source_file="res://imagens e sprites/tunel.png"
+dest_files=["res://.godot/imported/tunel.png-e1a6c7adc6d2012a0cf397d77fa45f33.ctex"]
 
 [params]
 

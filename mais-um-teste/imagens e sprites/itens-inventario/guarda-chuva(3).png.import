@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqx5b3yfsx0s5"
-path="res://.godot/imported/guarda-chuva(3).png-8f044b0440b664a80a590f0a6ffd85e2.ctex"
+path="res://.godot/imported/guarda-chuva(3).png-a067f7c5fd8847631074ed25c2188454.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://artes/itens-inventario/guarda-chuva(3).png"
-dest_files=["res://.godot/imported/guarda-chuva(3).png-8f044b0440b664a80a590f0a6ffd85e2.ctex"]
+source_file="res://imagens e sprites/itens-inventario/guarda-chuva(3).png"
+dest_files=["res://.godot/imported/guarda-chuva(3).png-a067f7c5fd8847631074ed25c2188454.ctex"]
 
 [params]
 

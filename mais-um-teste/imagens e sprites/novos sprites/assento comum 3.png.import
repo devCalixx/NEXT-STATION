@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyus3lu5rtvix"
-path="res://.godot/imported/assento comum 3.png-13b783b733b23c877822f7c21fb0c555.ctex"
+path="res://.godot/imported/assento comum 3.png-b5cd56d29857ffc1e058995e4a07f87e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://novos sprites/assento comum 3.png"
-dest_files=["res://.godot/imported/assento comum 3.png-13b783b733b23c877822f7c21fb0c555.ctex"]
+source_file="res://imagens e sprites/novos sprites/assento comum 3.png"
+dest_files=["res://.godot/imported/assento comum 3.png-b5cd56d29857ffc1e058995e4a07f87e.ctex"]
 
 [params]
 
