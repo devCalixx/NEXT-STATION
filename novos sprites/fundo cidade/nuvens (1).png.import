@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmiv1xwwk2qi5"
-path="res://.godot/imported/3.png-227d93c34bd95bd2756899c10396aa56.ctex"
+uid="uid://bw3eybephss0t"
+path="res://.godot/imported/nuvens (1).png-f9073294f32bb3785a5b52aa3e8e901d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fundo cidade/3.png"
-dest_files=["res://.godot/imported/3.png-227d93c34bd95bd2756899c10396aa56.ctex"]
+source_file="res://novos sprites/fundo cidade/nuvens (1).png"
+dest_files=["res://.godot/imported/nuvens (1).png-f9073294f32bb3785a5b52aa3e8e901d.ctex"]
 
 [params]
 

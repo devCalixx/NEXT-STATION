@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729708961
+::res://::1729725089
 assento comum.png::CompressedTexture2D::7903570217168958454::1729708425::1729708467::1::::<><>::
 assento preferencial.png::CompressedTexture2D::5847346593930477946::1729708425::1729708467::1::::<><>::
 icon.svg::CompressedTexture2D::7500813948369412993::1729708425::1729708467::1::::<><>::
@@ -8,15 +8,18 @@ README.md::TextFile::-1::1729708399::0::1::::<><>::
 sprite aleatorio.png::CompressedTexture2D::3358010420050282396::1729708425::1729708467::1::::<><>::
 tunel.png::CompressedTexture2D::9113482864305306121::1729708425::1729708467::1::::<><>::
 vagao finalizado.png::CompressedTexture2D::3241899294457213696::1729708425::1729708467::1::::<><>::
-::res://cenas/::1729708911
-gerente_interacao.tscn::PackedScene::6757341566358151971::1729708911::0::1::::<><>::
-interação_area.tscn::PackedScene::3319236571976409988::1729708878::0::1::::<><>::res://scripts/interação_area.gd
-metro.tscn::PackedScene::414391777353535178::1729708429::0::1::::<><>::uid://bmgnuwsksselk::::res://vagao finalizado.png<>uid://bv0p50semc7iq::::res://fundo cidade/1.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://d710p4nelimp::::res://novos sprites/assento comum 1.png<>uid://ditswlvyo8i3t::::res://novos sprites/assento comum 2.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://dyus3lu5rtvix::::res://novos sprites/assento comum 3.png<>uid://b0bc24bybfmnu::::res://novos sprites/assento comum 4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://e51sy3auyi0o::::res://novos sprites/assento comum 5.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://bp3oe7lx0dgkc::::res://porta fechada.png
-milesimoteste.tscn::PackedScene::3429778145947638137::1729708429::0::1::::<><>::uid://bn3v682lhni1q::::res://sprite aleatorio.png
-porta.tscn::PackedScene::909469687450943951::1729708425::0::1::::<><>::uid://bux2ro7iv8ga4::::res://novos sprites/sprite porta.png
+::res://cenas/::1729725043
+gerente_interacao.tscn::PackedScene::6757341566358151971::1729724310::0::1::::<><>::res://scripts/gerente_interacao.gd<>uid://d3hdid8ri5ej0::::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/PixeloidSans-Bold.ttf
+interação_area.tscn::PackedScene::3319236571976409988::1729724310::0::1::::<><>::res://scripts/interação_area.gd
+metro.tscn::PackedScene::414391777353535178::1729725043::0::1::::<><>::uid://bmgnuwsksselk::::res://vagao finalizado.png<>uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bjt2uu5twuwmo::::res://novos sprites/fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://novos sprites/fundo cidade/3.png<>uid://d710p4nelimp::::res://novos sprites/assento comum 1.png<>uid://ditswlvyo8i3t::::res://novos sprites/assento comum 2.png<>uid://bw3eybephss0t::::res://novos sprites/fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://novos sprites/fundo cidade/4.png<>uid://dyus3lu5rtvix::::res://novos sprites/assento comum 3.png<>uid://b0bc24bybfmnu::::res://novos sprites/assento comum 4.png<>uid://7wky2ptbcjlx::::res://novos sprites/fundo cidade/5.png<>uid://e51sy3auyi0o::::res://novos sprites/assento comum 5.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://bp3oe7lx0dgkc::::res://porta fechada.png<>uid://xyv130iwclhk::::res://cenas/npcteste.tscn
+milesimoteste.tscn::PackedScene::3429778145947638137::1729724310::0::1::::<><>::res://scripts/milesimoteste.gd<>uid://bn3v682lhni1q::::res://sprite aleatorio.png
+npcteste.tscn::PackedScene::1665211466928691284::1729724310::0::1::::<><>::res://scripts/npcteste.gd<>uid://cpkq7dmw2pqj7::::res://assento preferencial.png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
+porta.tscn::PackedScene::909469687450943951::1729724310::0::1::::<><>::uid://bux2ro7iv8ga4::::res://novos sprites/sprite porta.png
 tela_de_dialogo.tscn::PackedScene::445366419721001653::1729708425::0::1::::<><>::
 tela_inicial.tscn::PackedScene::1105774542530251870::1729708429::0::1::::<><>::
 title_screen.tscn::PackedScene::8634297270017125801::1729708425::0::1::::<><>::uid://bltfh5g75f71b::::res://novos sprites/city 3/1.png<>uid://dobmvfen3on5h::::res://novos sprites/city 3/2.png<>uid://dgxxnw05mjmhe::::res://novos sprites/city 3/3.png<>uid://4nur0kj5512b::::res://novos sprites/city 3/4.png<>uid://ccbjexsb4gian::::res://novos sprites/city 3/5.png<>uid://dr7yt32biuiym::::res://novos sprites/city 3/botão jogar (1).png
+::res://Dialogo/::1729725140
+dialogue_box.png::CompressedTexture2D::7618110050753510420::1729725140::1729725140::1::::<><>::
 ::res://Fontes/::1729708975
 ::res://Fontes/Pixeloid_Font_0_5/::1729708975
 License.txt::TextFile::-1::1729708975::0::1::::<><>::
@@ -35,15 +38,7 @@ PixeloidSans-Bold.woff::FontFile::1844417185619349051::1729708975::1729708975::1
 PixeloidSans-Bold.woff2::FontFile::75777108004429953::1729708975::1729708975::1::::<><>::
 PixeloidSans.woff::FontFile::9179620376941761528::1729708975::1729708975::1::::<><>::
 PixeloidSans.woff2::FontFile::7156756654351556485::1729708975::1729708975::1::::<><>::
-::res://fundo cidade/::1729708467
-1.png::CompressedTexture2D::3912961513740046064::1729708425::1729708467::1::::<><>::
-2.png::CompressedTexture2D::3059019626149940446::1729708425::1729708467::1::::<><>::
-3.png::CompressedTexture2D::8019365927294566182::1729708425::1729708467::1::::<><>::
-4.png::CompressedTexture2D::2949830983392770710::1729708425::1729708467::1::::<><>::
-5.png::CompressedTexture2D::2292110778154952433::1729708425::1729708467::1::::<><>::
-nuvens (1).png::CompressedTexture2D::3988663607262453261::1729708425::1729708467::1::::<><>::
-segurador 480x160.png::CompressedTexture2D::5127150798991011172::1729708425::1729708467::1::::<><>::
-::res://novos sprites/::1729708467
+::res://novos sprites/::1729725043
 assento comum 1.png::CompressedTexture2D::278250738949588543::1729708425::1729708467::1::::<><>::
 assento comum 2.png::CompressedTexture2D::7761128782154612499::1729708425::1729708467::1::::<><>::
 assento comum 3.png::CompressedTexture2D::8886225371611901027::1729708425::1729708467::1::::<><>::
@@ -75,13 +70,24 @@ botão jogar (2).png::CompressedTexture2D::44107588608475827::1729708425::172970
 botão jogar.png::CompressedTexture2D::6674329880928274492::1729708425::1729708467::1::::<><>::
 botão sair.png::CompressedTexture2D::2302874632324623945::1729708425::1729708467::1::::<><>::
 trem.png::CompressedTexture2D::7511118176088195674::1729708425::1729708467::1::::<><>::
-::res://scripts/::1729708878
+::res://novos sprites/fundo cidade/::1729725043
+1.png::CompressedTexture2D::3912961513740046064::1729708425::1729725043::1::::<><>::
+2.png::CompressedTexture2D::3059019626149940446::1729708425::1729725043::1::::<><>::
+3.png::CompressedTexture2D::8019365927294566182::1729708425::1729725043::1::::<><>::
+4.png::CompressedTexture2D::2949830983392770710::1729708425::1729725043::1::::<><>::
+5.png::CompressedTexture2D::2292110778154952433::1729708425::1729725043::1::::<><>::
+nuvens (1).png::CompressedTexture2D::3988663607262453261::1729708425::1729725043::1::::<><>::
+segurador 480x160.png::CompressedTexture2D::5127150798991011172::1729708425::1729725043::1::::<><>::
+::res://scripts/::1729713952
 assento_7.gd::GDScript::-1::1729708425::0::1::::<>CollisionShape2D<>::
 assento_comum.gd::GDScript::-1::1729708425::0::1::::assento<>Sprite2D<>::
 camera_2d.gd::GDScript::-1::1729708425::0::1::::<>Camera2D<>::
 character_body_2d.gd::GDScript::-1::1729708425::0::1::::<>CharacterBody2D<>::
+gerente_interacao.gd::GDScript::-1::1729712898::0::1::::<>Node2D<>::
 global.gd::GDScript::-1::1729708425::0::1::::<>Camera2D<>::
-interação_area.gd::GDScript::-1::1729708878::0::1::::InteraçãoArea<>Area2D<>::
+interação_area.gd::GDScript::-1::1729713494::0::1::::InteraçãoArea<>Area2D<>::
+milesimoteste.gd::GDScript::-1::1729709319::0::1::::<>CharacterBody2D<>::
+npcteste.gd::GDScript::-1::1729713952::0::1::::<>Node2D<>::
 parallax_background.gd::GDScript::-1::1729708425::0::1::::<>Node2D<>::
 parallax_layer.gd::GDScript::-1::1729708425::0::1::::<>Parallax2D<>::
 tela_inicial.gd::GDScript::-1::1729708425::0::1::::<>Control<>::

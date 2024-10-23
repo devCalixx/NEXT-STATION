@@ -1,10 +1,10 @@
-res://cenas/interação_area.tscn
-res://scripts/interação_area.gd
-res://cenas/gerente_interacao.tscn
-res://scripts/gerente_interacao.gd
-res://cenas/metro.tscn
 res://cenas/milesimoteste.tscn
+res://cenas/metro.tscn
 res://cenas/porta.tscn
+res://cenas/interação_area.tscn
+res://cenas/gerente_interacao.tscn
 res://cenas/npcteste.tscn
-res://scripts/milesimoteste.gd
+res://scripts/caixa_dialogo.gd
+res://cenas/caixa_dialogo.tscn
+res://scripts/gerentedialogo.gd
 res://scripts/npcteste.gd

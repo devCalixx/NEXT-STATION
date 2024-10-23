@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bv0p50semc7iq"
-path="res://.godot/imported/1.png-d86e8f9fe32b86bd73f934bbb090b0c3.ctex"
+uid="uid://cfbvoo2os105u"
+path="res://.godot/imported/segurador 480x160.png-ef15bfc5e45a6d12ef5937bce33bb55a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fundo cidade/1.png"
-dest_files=["res://.godot/imported/1.png-d86e8f9fe32b86bd73f934bbb090b0c3.ctex"]
+source_file="res://novos sprites/fundo cidade/segurador 480x160.png"
+dest_files=["res://.godot/imported/segurador 480x160.png-ef15bfc5e45a6d12ef5937bce33bb55a.ctex"]
 
 [params]
 
