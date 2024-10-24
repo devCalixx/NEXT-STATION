@@ -2,6 +2,4 @@ res://cenas/milesimoteste.tscn
 res://cenas/metro.tscn
 res://cenas/caixa_dialogo.tscn
 res://cenas/npcteste.tscn
-res://cenas/metro.gd
 res://cenas/tela_inicial.tscn
-res://scripts/tela_inicial.gd
