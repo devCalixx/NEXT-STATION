@@ -1,7 +1,8 @@
-[gd_scene load_steps=69 format=3 uid="uid://bo4n7em8jy6w8"]
+[gd_scene load_steps=70 format=3 uid="uid://bo4n7em8jy6w8"]
 
-[ext_resource type="Script" path="res://character_body_2d.gd" id="1_7ldcx"]
+[ext_resource type="Script" path="res://scripts/character_body_2d.gd" id="1_jkams"]
 [ext_resource type="Texture2D" uid="uid://bn3v682lhni1q" path="res://sprite aleatorio.png" id="2_0f7uw"]
+[ext_resource type="Resource" uid="uid://286yr5bywa6n" path="res://inventario/inventarioJogador.tres" id="2_6s1xx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_icg8r"]
 atlas = ExtResource("2_0f7uw")
@@ -498,7 +499,8 @@ animations = [{
 size = Vector2(12, 4.25)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
-script = ExtResource("1_7ldcx")
+script = ExtResource("1_jkams")
+inventario = ExtResource("2_6s1xx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(75, 56)

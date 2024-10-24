@@ -1,6 +1,8 @@
 extends CharacterBody2D
 @onready var player_animation = $player_animation
 
+@export var inventario: Inventario
+
 const SPEED = 150.0
 const JUMP_VELOCITY = -400.0
 
