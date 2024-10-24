@@ -3,7 +3,9 @@ extends Node2D
 @onready var interação_area: InteraçãoArea = $"interação_area"
 
 const Lines: Array[String] = [
-	"Me mata pfv aaaaaa"
+	"Uhuu funcionou",
+	"Eu estou com medo do futuro",
+	"pfv funciona"
 ]
 
 func _ready() -> void:
