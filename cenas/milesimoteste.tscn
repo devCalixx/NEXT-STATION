@@ -1,6 +1,6 @@
 [gd_scene load_steps=69 format=3 uid="uid://bo4n7em8jy6w8"]
 
-[ext_resource type="Script" path="res://character_body_2d.gd" id="1_7ldcx"]
+[ext_resource type="Script" path="res://scripts/character_body_2d.gd" id="1_jkams"]
 [ext_resource type="Texture2D" uid="uid://bn3v682lhni1q" path="res://sprite aleatorio.png" id="2_0f7uw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_icg8r"]
@@ -495,10 +495,15 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k11yl"]
-size = Vector2(12, 4.25)
+size = Vector2(12, 24)
 
+<<<<<<< Updated upstream
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["player"]]
+=======
 [node name="CharacterBody2D" type="CharacterBody2D"]
-script = ExtResource("1_7ldcx")
+>>>>>>> Stashed changes
+z_index = 1
+script = ExtResource("1_jkams")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(75, 56)
@@ -507,7 +512,7 @@ animation = &"walk_up"
 frame_progress = 0.752241
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(75, 65.875)
+position = Vector2(75, 56)
 shape = SubResource("RectangleShape2D_k11yl")
 
 [node name="Camera2D" type="Camera2D" parent="."]

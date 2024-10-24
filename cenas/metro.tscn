@@ -1,4 +1,8 @@
-[gd_scene load_steps=31 format=4 uid="uid://f5y8bwwf03ac"]
+<<<<<<< Updated upstream
+[gd_scene load_steps=35 format=4 uid="uid://f5y8bwwf03ac"]
+=======
+[gd_scene load_steps=33 format=4 uid="uid://f5y8bwwf03ac"]
+>>>>>>> Stashed changes
 
 [ext_resource type="Texture2D" uid="uid://bmgnuwsksselk" path="res://vagao finalizado.png" id="1_3c1xc"]
 [ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://fundo cidade/1.png" id="1_elsmw"]
@@ -13,8 +17,16 @@
 [ext_resource type="Texture2D" uid="uid://b0bc24bybfmnu" path="res://novos sprites/assento comum 4.png" id="6_24mn3"]
 [ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="6_pm0vx"]
 [ext_resource type="Texture2D" uid="uid://e51sy3auyi0o" path="res://novos sprites/assento comum 5.png" id="7_1p1cp"]
-[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://milesimoteste.tscn" id="8_r0eml"]
+[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="8_r0eml"]
 [ext_resource type="Texture2D" uid="uid://bp3oe7lx0dgkc" path="res://porta fechada.png" id="14_4x6wv"]
+[ext_resource type="PackedScene" uid="uid://unewjgtk50fh" path="res://cenas/moeda.tscn" id="16_r76es"]
+<<<<<<< Updated upstream
+[ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_ble57"]
+[ext_resource type="Script" path="res://scripts/hud_manager.gd" id="17_gg8ww"]
+[ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_lfp5l"]
+=======
+[ext_resource type="Script" path="res://scripts/animated_sprite_2d.gd" id="17_dvufj"]
+>>>>>>> Stashed changes
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sdele"]
 texture = ExtResource("1_3c1xc")
@@ -258,7 +270,7 @@ size = Vector2(20, 96)
 size = Vector2(488, 20)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2wo5t"]
-size = Vector2(448, 56)
+size = Vector2(448, 39.6217)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_shlko"]
 size = Vector2(3, 72)
@@ -357,7 +369,7 @@ scale = Vector2(1.06694, 1)
 texture = ExtResource("14_4x6wv")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("8_r0eml")]
-position = Vector2(118, 0)
+position = Vector2(154.272, -4.21507)
 scale = Vector2(0.962898, 0.98269)
 
 [node name="colisões" type="StaticBody2D" parent="."]
@@ -373,7 +385,11 @@ position = Vector2(224, 106)
 shape = SubResource("RectangleShape2D_i4j0q")
 
 [node name="limite da tela3" type="CollisionShape2D" parent="colisões"]
-position = Vector2(458, 48)
+<<<<<<< Updated upstream
+visible = false
+=======
+>>>>>>> Stashed changes
+position = Vector2(445.533, 47.2088)
 shape = SubResource("RectangleShape2D_diiwb")
 
 [node name="limite da tela4" type="CollisionShape2D" parent="colisões"]
@@ -383,10 +399,98 @@ shape = SubResource("RectangleShape2D_wxgb4")
 
 [node name="parede" type="CollisionShape2D" parent="colisões"]
 visible = false
-position = Vector2(224, 28)
+position = Vector2(224, 19.8108)
 shape = SubResource("RectangleShape2D_2wo5t")
-metadata/_edit_lock_ = true
 
 [node name="negocio do canto" type="CollisionShape2D" parent="colisões"]
+visible = false
 position = Vector2(1.5, 36)
 shape = SubResource("RectangleShape2D_shlko")
+
+<<<<<<< Updated upstream
+[node name="moeda" type="Node2D" parent="."]
+
+[node name="moeda" parent="moeda" instance=ExtResource("16_r76es")]
+position = Vector2(313.601, 13.0667)
+
+[node name="moeda2" parent="moeda" instance=ExtResource("16_r76es")]
+position = Vector2(233.515, 13.9097)
+
+[node name="moeda3" parent="moeda" instance=ExtResource("16_r76es")]
+position = Vector2(164.809, 10.5377)
+
+[node name="moeda4" parent="moeda" instance=ExtResource("16_r76es")]
+position = Vector2(74.1852, 11.3807)
+
+[node name="moeda5" parent="moeda" instance=ExtResource("16_r76es")]
+position = Vector2(-32.456, 8.85165)
+
+[node name="HUB" type="CanvasLayer" parent="."]
+
+[node name="control" type="Control" parent="HUB"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("17_gg8ww")
+
+[node name="container" type="MarginContainer" parent="HUB/control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 7
+
+[node name="moedacontainer" type="HBoxContainer" parent="HUB/control/container"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+
+[node name="contadormoeda" type="Label" parent="HUB/control/container/moedacontainer"]
+texture_repeat = 2
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("17_ble57")
+theme_override_font_sizes/font_size = 8
+text = "000
+"
+
+[node name="iconemoeda" type="TextureRect" parent="HUB/control/container/moedacontainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("18_lfp5l")
+
+[node name="timecontainer" type="HBoxContainer" parent="HUB/control/container"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+
+[node name="contadortime" type="Label" parent="HUB/control/container/timecontainer"]
+texture_repeat = 2
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("17_ble57")
+theme_override_font_sizes/font_size = 8
+text = "00:00
+"
+
+[node name="clock_timer" type="Timer" parent="HUB/control"]
+autostart = true
+
+[connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]
+=======
+[node name="moeda" parent="." instance=ExtResource("16_r76es")]
+position = Vector2(150.056, 25.2904)
+script = ExtResource("17_dvufj")
+>>>>>>> Stashed changes
